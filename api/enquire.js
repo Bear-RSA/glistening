@@ -40,6 +40,7 @@ export async function POST(request) {
   if (!name) fields.name = 'Add your name.'
   if (!EMAIL.test(email)) fields.email = 'Add an email address we can reply to.'
   if (!message) fields.message = 'Tell us a little about your hair or what you’d like.'
+  if (data.consent !== 'yes') fields.consent = 'Tick the box so we may use your details to reply.'
   if (Object.keys(fields).length) return json(422, { error: 'A few details are missing.', fields })
 
   const { RESEND_API_KEY, ENQUIRY_TO, ENQUIRY_FROM, SEND_CONFIRMATION } = process.env

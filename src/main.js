@@ -219,11 +219,11 @@ form.addEventListener('submit', async (e) => {
   form.querySelectorAll('[aria-invalid]').forEach((el) => el.removeAttribute('aria-invalid'))
 
   const data = Object.fromEntries(new FormData(form))
-  const missing = ['name', 'email', 'message'].filter((k) => !form.elements[k].checkValidity())
+  const missing = ['name', 'email', 'message', 'consent'].filter((k) => !form.elements[k].checkValidity())
   if (missing.length) {
     missing.forEach((k) => form.elements[k].setAttribute('aria-invalid', 'true'))
     form.elements[missing[0]].focus()
-    setStatus('Fill in your name, a real email and a short note so we can reply.', true)
+    setStatus('Fill in your name, a real email and a short note, and tick the privacy box so we can reply.', true)
     return
   }
 

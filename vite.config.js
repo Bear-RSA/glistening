@@ -1,3 +1,4 @@
+import { resolve } from 'node:path'
 import { defineConfig, loadEnv } from 'vite'
 
 // In `npm run dev`, serve /api/enquire with the same handler Vercel deploys,
@@ -6,6 +7,10 @@ function apiRoutes() {
   return {
     name: 'local-api',
     configureServer(server) {
+      server.middlewares.use((req, _res, next) => {
+        if (req.url === '/privacy' || req.url === '/terms') req.url += '.html'
+        next()
+      })
       server.middlewares.use('/api/enquire', async (req, res) => {
         const mod = await server.ssrLoadModule('/api/enquire.js')
         const handler = mod[req.method]
@@ -31,5 +36,16 @@ function apiRoutes() {
 
 export default defineConfig(({ mode }) => {
   Object.assign(process.env, loadEnv(mode, process.cwd(), ''))
-  return { plugins: [apiRoutes()] }
+  return {
+    plugins: [apiRoutes()],
+    build: {
+      rollupOptions: {
+        input: {
+          main: resolve(import.meta.dirname, 'index.html'),
+          privacy: resolve(import.meta.dirname, 'privacy.html'),
+          terms: resolve(import.meta.dirname, 'terms.html'),
+        },
+      },
+    },
+  }
 })
