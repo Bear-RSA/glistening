@@ -682,17 +682,25 @@ section { scroll-margin-top: 20px; }
 }
 .field textarea {
   resize: vertical;
-  min-height: 7.5em;
-  line-height: 1.9em;
+  --rule: rgb(58 30 22 / 0.35);
+  min-height: 128px;
+  line-height: 32px;
   padding-top: 0;
   border-bottom: 0;
-  /* ruled lines */
-  background: repeating-linear-gradient(transparent 0 calc(1.9em - 2px), rgb(58 30 22 / 0.35) calc(1.9em - 2px) 1.9em);
+  /* ruled lines: whole-pixel rows with soft 1px edges, so they stay smooth on the tilted note */
+  background-image: linear-gradient(
+    to bottom,
+    transparent 28px,
+    var(--rule) 29px,
+    var(--rule) 30px,
+    transparent 31px
+  );
+  background-size: 100% 32px;
   background-attachment: local;
 }
 .field input:focus,
 .field textarea:focus { outline: none; border-color: var(--lipstick); }
-.field textarea:focus { background: repeating-linear-gradient(transparent 0 calc(1.9em - 2px), var(--lipstick) calc(1.9em - 2px) 1.9em); background-attachment: local; }
+.field textarea:focus { --rule: var(--lipstick); }
 .field:has(:focus-visible) > span { color: var(--lipstick); }
 .field [aria-invalid='true'] { border-color: #a3261a; }
 .consent {
