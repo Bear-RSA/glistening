@@ -27,3 +27,5 @@ dist-ssr
 .impeccable/review/
 .impeccable/build/
 .vercel
+.env
+.env.local

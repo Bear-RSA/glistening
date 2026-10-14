@@ -8,7 +8,7 @@ web
 
 ## Stack
 
-Vite + vanilla HTML/CSS/JS, run with `npm run dev` (user's choice).
+Vite + vanilla HTML/CSS/JS, run with `npm run dev` (user's choice). Hosted on Vercel; email via Resend from a Vercel function. Footer credit: "by MiraiStack".
 
 ## Users
 
@@ -25,11 +25,11 @@ Sulphate-free haircare at a price that is gentle on the wallet, run personally f
 ## Operating Context
 
 - Based in Malmesbury, South Africa; delivers nationwide.
-- Orders and enquiries happen through Instagram DM (@u_r_glistening). No website shop, phone number, or WhatsApp number confirmed.
+- Orders and enquiries come in by email: the site's order-note form sends to the Glistening inbox through Resend (api/enquire.js). Instagram (@u_r_glistening) stays as a secondary channel.
 
 ## Capabilities and Constraints
 
-- Primary visitor action: book / enquire (currently via Instagram DM).
+- Primary visitor action: send an order note by email (form on the page, delivered via Resend).
 - Undecided / unknown: product names, product range, prices, ingredients, WhatsApp/phone/email. Do not invent these.
 
 ## Brand Commitments
@@ -47,4 +47,4 @@ Sulphate-free haircare at a price that is gentle on the wallet, run personally f
 1. Affordable is part of the product, not a discount.
 2. Gentle on hair is the core claim; keep it honest (sulphate-free).
 3. Personal and local: a real small business, talk like the Instagram does.
-4. Every path ends at a DM.
+4. Every path ends at the order note.

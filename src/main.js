@@ -202,3 +202,52 @@ function paintStill() {
 }
 new ResizeObserver(paintStill).observe(still)
 if (!reduceMotion) setTimeout(autoWipe, 700)
+
+/* Order note → /api/enquire (Resend) */
+const form = document.querySelector('#enquiry-form')
+const status = form.querySelector('.pad-status')
+const send = form.querySelector('.send')
+const sendLabel = form.querySelector('.send-label')
+
+function setStatus(text, isError = false) {
+  status.textContent = text
+  status.classList.toggle('is-error', isError)
+}
+
+form.addEventListener('submit', async (e) => {
+  e.preventDefault()
+  form.querySelectorAll('[aria-invalid]').forEach((el) => el.removeAttribute('aria-invalid'))
+
+  const data = Object.fromEntries(new FormData(form))
+  const missing = ['name', 'email', 'message'].filter((k) => !form.elements[k].checkValidity())
+  if (missing.length) {
+    missing.forEach((k) => form.elements[k].setAttribute('aria-invalid', 'true'))
+    form.elements[missing[0]].focus()
+    setStatus('Fill in your name, a real email and a short note so we can reply.', true)
+    return
+  }
+
+  send.disabled = true
+  sendLabel.textContent = 'Sending…'
+  setStatus('')
+  try {
+    const res = await fetch('/api/enquire', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify(data),
+    })
+    const body = await res.json().catch(() => ({}))
+    if (!res.ok) {
+      Object.keys(body.fields ?? {}).forEach((k) => form.elements[k]?.setAttribute('aria-invalid', 'true'))
+      throw new Error(body.error || 'Your note didn’t send.')
+    }
+    form.reset()
+    form.classList.add('is-sent')
+    setStatus(`thanks ${data.name.split(' ')[0]}! we’ll email you back soon 🤎`)
+  } catch (err) {
+    setStatus(`${err.message} Try again, or message @u_r_glistening on Instagram.`, true)
+  } finally {
+    send.disabled = false
+    sendLabel.textContent = 'Send note'
+  }
+})

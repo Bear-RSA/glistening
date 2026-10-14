@@ -8,7 +8,7 @@
     <title>Glistening · sulphate-free haircare</title>
     <meta
       name="description"
-      content="Sulphate-free haircare that doesn't have to dry your pockets out. Based in Malmesbury, South Africa, delivering nationwide. DM @u_r_glistening to order."
+      content="Sulphate-free haircare that doesn't have to dry your pockets out. Based in Malmesbury, South Africa, delivering nationwide. Send us a note to order."
     />
   </head>
   <body>
@@ -63,10 +63,10 @@
               </p>
             </div>
 
-            <a class="sticky sticky--cta" href="https://ig.me/m/u_r_glistening" target="_blank" rel="noopener">
+            <a class="sticky sticky--cta" href="#enquire">
               <span class="sticky-tape" aria-hidden="true"></span>
-              <span class="sticky-big">dm to order</span>
-              <span class="sticky-small">on Instagram <svg aria-hidden="true"><use href="#i-arrow" /></svg></span>
+              <span class="sticky-big">order by email</span>
+              <span class="sticky-small">leave us a note <svg aria-hidden="true"><use href="#i-arrow" /></svg></span>
             </a>
 
             <p class="hint lipstick" aria-hidden="true">psst… wipe the mirror</p>
@@ -121,45 +121,45 @@
       <section class="cabinet" id="shelf" aria-labelledby="shelf-title">
         <div class="cabinet-head">
           <h2 id="shelf-title">The shelf</h2>
-          <p>The full range and prices live in our DMs while the shop gets set up. Ask us what suits your hair.</p>
+          <p>Send us a note for the full range and prices while the shop gets set up. Ask us what suits your hair.</p>
         </div>
         <ul class="products">
           <li class="product" data-placeholder>
             <div class="product-photo"><span>product photo</span></div>
             <h3>Product name</h3>
             <p class="product-note">Short line about what it does.</p>
-            <a class="price" href="https://ig.me/m/u_r_glistening" target="_blank" rel="noopener">DM for price <svg aria-hidden="true"><use href="#i-arrow" /></svg></a>
+            <a class="price" href="#enquire">Ask for the price <svg aria-hidden="true"><use href="#i-arrow" /></svg></a>
           </li>
           <li class="product" data-placeholder>
             <div class="product-photo"><span>product photo</span></div>
             <h3>Product name</h3>
             <p class="product-note">Short line about what it does.</p>
-            <a class="price" href="https://ig.me/m/u_r_glistening" target="_blank" rel="noopener">DM for price <svg aria-hidden="true"><use href="#i-arrow" /></svg></a>
+            <a class="price" href="#enquire">Ask for the price <svg aria-hidden="true"><use href="#i-arrow" /></svg></a>
           </li>
           <li class="product" data-placeholder>
             <div class="product-photo"><span>product photo</span></div>
             <h3>Product name</h3>
             <p class="product-note">Short line about what it does.</p>
-            <a class="price" href="https://ig.me/m/u_r_glistening" target="_blank" rel="noopener">DM for price <svg aria-hidden="true"><use href="#i-arrow" /></svg></a>
+            <a class="price" href="#enquire">Ask for the price <svg aria-hidden="true"><use href="#i-arrow" /></svg></a>
           </li>
         </ul>
       </section>
 
       <!-- How to order -->
       <section class="order" id="order" aria-labelledby="order-title">
-        <h2 id="order-title">Ordering is just a DM.</h2>
+        <h2 id="order-title">Ordering is just a note.</h2>
         <ol class="steps">
           <li class="sticky step">
             <span class="sticky-tape" aria-hidden="true"></span>
             <span class="step-n lipstick">1</span>
-            <h3>Slide into our DMs</h3>
-            <p>Message <a href="https://ig.me/m/u_r_glistening" target="_blank" rel="noopener">@u_r_glistening</a> on Instagram.</p>
+            <h3>Leave us a note</h3>
+            <p>Fill in the <a href="#enquire">order note</a> below. It lands straight in our inbox.</p>
           </li>
           <li class="sticky step">
             <span class="sticky-tape" aria-hidden="true"></span>
             <span class="step-n lipstick">2</span>
             <h3>Tell us about your hair</h3>
-            <p>Your hair type and what’s bothering it. We’ll point you to the right bottle.</p>
+            <p>Your hair type and what’s bothering it. We’ll email you back with the right bottle and price.</p>
           </li>
           <li class="sticky step">
             <span class="sticky-tape" aria-hidden="true"></span>
@@ -171,17 +171,42 @@
       </section>
 
       <!-- Close -->
-      <section class="close" aria-labelledby="close-title">
+      <section class="close" id="enquire" aria-labelledby="close-title">
         <div class="close-mirror">
           <div class="reflection" aria-hidden="true"><span class="tilesback"></span></div>
           <canvas class="steam--still" aria-hidden="true"></canvas>
           <h2 id="close-title" class="lipstick">ur next wash day <span>could be glistening</span></h2>
-          <a class="sticky sticky--close" href="https://ig.me/m/u_r_glistening" target="_blank" rel="noopener">
-            <span class="sticky-tape" aria-hidden="true"></span>
-            <span class="sticky-big">dm us</span>
-            <span class="sticky-small"><svg aria-hidden="true"><use href="#i-insta" /></svg> @u_r_glistening</span>
-          </a>
         </div>
+
+        <form class="pad" id="enquiry-form" action="/api/enquire" method="post" novalidate>
+          <span class="sticky-tape" aria-hidden="true"></span>
+          <p class="pad-title lipstick">leave us a note</p>
+          <p class="pad-lede">Tell us what you’re after and we’ll email you back.</p>
+
+          <label class="field">
+            <span>Your name</span>
+            <input name="name" type="text" autocomplete="name" required maxlength="100" />
+          </label>
+          <label class="field">
+            <span>Email</span>
+            <input name="email" type="email" autocomplete="email" inputmode="email" required maxlength="200" />
+          </label>
+          <label class="field">
+            <span>Phone <em>(optional)</em></span>
+            <input name="phone" type="tel" autocomplete="tel" maxlength="30" />
+          </label>
+          <label class="field">
+            <span>Your hair and what you’d like</span>
+            <textarea name="message" rows="4" required maxlength="2000"></textarea>
+          </label>
+          <label class="trap" aria-hidden="true">Leave this empty <input name="company" type="text" tabindex="-1" autocomplete="off" /></label>
+
+          <button class="send" type="submit">
+            <span class="send-label">Send note</span>
+            <svg aria-hidden="true"><use href="#i-arrow" /></svg>
+          </button>
+          <p class="pad-status" role="status" aria-live="polite"></p>
+        </form>
       </section>
     </main>
 
@@ -189,6 +214,7 @@
       <p class="wordmark">glistening</p>
       <p>Sulphate-free haircare · Malmesbury, South Africa · Delivery nationwide</p>
       <p><a href="https://www.instagram.com/u_r_glistening/" target="_blank" rel="noopener">Instagram</a> · © <span data-year>2026</span> Glistening</p>
+      <p class="credit">by MiraiStack</p>
     </footer>
 
     <script type="module" src="/src/main.js"></script>
