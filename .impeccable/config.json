@@ -11,6 +11,51 @@
         ],
         "createdAt": "2026-10-14T23:00:23.143Z",
         "reason": "agent decided: detector scans index.html without src/style.css (reports all roles at 16px); real sizes are h1 up to 11.5rem, h2 up to 5.4rem, body ~1.1rem"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "privacy.html"
+        ],
+        "createdAt": "2026-10-14T23:27:45.368Z",
+        "reason": "agent decided: detector scans HTML without src/style.css (sees browser defaults); real styles use DESIGN.md tokens and a clear type scale"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "terms.html"
+        ],
+        "createdAt": "2026-10-14T23:27:45.618Z",
+        "reason": "agent decided: detector scans HTML without src/style.css (sees browser defaults); real styles use DESIGN.md tokens and a clear type scale"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "rgb(0, 0, 0)",
+        "files": [
+          "privacy.html"
+        ],
+        "createdAt": "2026-10-14T23:27:45.855Z",
+        "reason": "agent decided: detector scans HTML without src/style.css (sees browser defaults); real styles use DESIGN.md tokens and a clear type scale"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "rgb(0, 0, 0)",
+        "files": [
+          "terms.html"
+        ],
+        "createdAt": "2026-10-14T23:27:46.079Z",
+        "reason": "agent decided: detector scans HTML without src/style.css (sees browser defaults); real styles use DESIGN.md tokens and a clear type scale"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "rgb(0, 0, 0)",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-14T23:27:46.362Z",
+        "reason": "agent decided: detector scans HTML without src/style.css (sees browser defaults); real styles use DESIGN.md tokens and a clear type scale"
       }
     ]
   }
