@@ -188,7 +188,7 @@ p { margin: 0; text-wrap: pretty; }
 /* ---------- hero / mirror ---------- */
 .hero {
   padding: 4px var(--gutter) 0;
-  max-width: 1440px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -202,7 +202,7 @@ p { margin: 0; text-wrap: pretty; }
 .glass {
   position: relative;
   overflow: hidden;
-  min-height: clamp(480px, calc(100svh - 236px), 760px);
+  min-height: clamp(440px, calc(100svh - 300px), 620px);
   border-radius: var(--radius-mirror);
   background:
     linear-gradient(115deg, transparent 30%, rgb(255 255 255 / 0.45) 38%, transparent 46%),
@@ -266,12 +266,12 @@ p { margin: 0; text-wrap: pretty; }
   position: relative;
   z-index: 2;
   pointer-events: none;
-  padding: clamp(28px, 6vw, 88px) clamp(22px, 6vw, 96px) 0;
+  padding: clamp(28px, 5vw, 72px) clamp(22px, 6vw, 96px) clamp(28px, 4vw, 48px);
   max-width: 1100px;
 }
 
 .note h1 {
-  font-size: clamp(4.2rem, 13vw, 11.5rem);
+  font-size: clamp(4rem, 10vw, 9rem);
   line-height: 0.86;
   transform: rotate(-3deg);
   transform-origin: left center;
