@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-14T23:00:23.143Z",
+        "reason": "agent decided: detector scans index.html without src/style.css (reports all roles at 16px); real sizes are h1 up to 11.5rem, h2 up to 5.4rem, body ~1.1rem"
+      }
+    ]
+  }
+}

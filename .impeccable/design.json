@@ -1,0 +1,399 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-14T23:13:47.178Z",
+  "title": "Design System: Glistening",
+  "extensions": {
+    "colorMeta": {
+      "mint": {
+        "role": "neutral",
+        "displayName": "Glazed Mint Tile",
+        "canonical": "oklch(79.3% 0.071 172)",
+        "tonalRamp": [
+          "oklch(15% 0.071 172)",
+          "oklch(25% 0.071 172)",
+          "oklch(36% 0.071 172)",
+          "oklch(47% 0.071 172)",
+          "oklch(58% 0.071 172)",
+          "oklch(70% 0.071 172)",
+          "oklch(82% 0.071 172)",
+          "oklch(95% 0.071 172)"
+        ]
+      },
+      "grout": {
+        "role": "neutral",
+        "displayName": "White Grout",
+        "canonical": "oklch(96.0% 0.015 165)",
+        "tonalRamp": [
+          "oklch(15% 0.015 165)",
+          "oklch(25% 0.015 165)",
+          "oklch(36% 0.015 165)",
+          "oklch(47% 0.015 165)",
+          "oklch(58% 0.015 165)",
+          "oklch(70% 0.015 165)",
+          "oklch(82% 0.015 165)",
+          "oklch(95% 0.015 165)"
+        ]
+      },
+      "cocoa": {
+        "role": "neutral",
+        "displayName": "Cocoa Ink",
+        "canonical": "oklch(27.1% 0.046 37)",
+        "tonalRamp": [
+          "oklch(15% 0.046 37)",
+          "oklch(25% 0.046 37)",
+          "oklch(36% 0.046 37)",
+          "oklch(47% 0.046 37)",
+          "oklch(58% 0.046 37)",
+          "oklch(70% 0.046 37)",
+          "oklch(82% 0.046 37)",
+          "oklch(95% 0.046 37)"
+        ]
+      },
+      "cocoa-soft": {
+        "role": "neutral",
+        "displayName": "Soft Cocoa",
+        "canonical": "oklch(38.0% 0.054 38)",
+        "tonalRamp": [
+          "oklch(15% 0.054 38)",
+          "oklch(25% 0.054 38)",
+          "oklch(36% 0.054 38)",
+          "oklch(47% 0.054 38)",
+          "oklch(58% 0.054 38)",
+          "oklch(70% 0.054 38)",
+          "oklch(82% 0.054 38)",
+          "oklch(95% 0.054 38)"
+        ]
+      },
+      "lipstick": {
+        "role": "primary",
+        "displayName": "Lipstick Cocoa-Rose",
+        "canonical": "oklch(42.2% 0.105 30)",
+        "tonalRamp": [
+          "oklch(15% 0.105 30)",
+          "oklch(25% 0.105 30)",
+          "oklch(36% 0.105 30)",
+          "oklch(47% 0.105 30)",
+          "oklch(58% 0.105 30)",
+          "oklch(70% 0.105 30)",
+          "oklch(82% 0.105 30)",
+          "oklch(95% 0.105 30)"
+        ]
+      },
+      "glass-hi": {
+        "role": "neutral",
+        "displayName": "Glass High",
+        "canonical": "oklch(96.2% 0.007 174)",
+        "tonalRamp": [
+          "oklch(15% 0.007 174)",
+          "oklch(25% 0.007 174)",
+          "oklch(36% 0.007 174)",
+          "oklch(47% 0.007 174)",
+          "oklch(58% 0.007 174)",
+          "oklch(70% 0.007 174)",
+          "oklch(82% 0.007 174)",
+          "oklch(95% 0.007 174)"
+        ]
+      },
+      "glass-mid": {
+        "role": "neutral",
+        "displayName": "Glass Mid",
+        "canonical": "oklch(88.3% 0.015 176)",
+        "tonalRamp": [
+          "oklch(15% 0.015 176)",
+          "oklch(25% 0.015 176)",
+          "oklch(36% 0.015 176)",
+          "oklch(47% 0.015 176)",
+          "oklch(58% 0.015 176)",
+          "oklch(70% 0.015 176)",
+          "oklch(82% 0.015 176)",
+          "oklch(95% 0.015 176)"
+        ]
+      },
+      "glass-lo": {
+        "role": "neutral",
+        "displayName": "Glass Low",
+        "canonical": "oklch(79.0% 0.019 180)",
+        "tonalRamp": [
+          "oklch(15% 0.019 180)",
+          "oklch(25% 0.019 180)",
+          "oklch(36% 0.019 180)",
+          "oklch(47% 0.019 180)",
+          "oklch(58% 0.019 180)",
+          "oklch(70% 0.019 180)",
+          "oklch(82% 0.019 180)",
+          "oklch(95% 0.019 180)"
+        ]
+      },
+      "butter": {
+        "role": "secondary",
+        "displayName": "Sticky-Note Butter",
+        "canonical": "oklch(90.9% 0.125 98)",
+        "tonalRamp": [
+          "oklch(15% 0.120 98)",
+          "oklch(25% 0.120 98)",
+          "oklch(36% 0.120 98)",
+          "oklch(47% 0.120 98)",
+          "oklch(58% 0.120 98)",
+          "oklch(70% 0.120 98)",
+          "oklch(82% 0.120 98)",
+          "oklch(95% 0.120 98)"
+        ]
+      },
+      "butter-deep": {
+        "role": "secondary",
+        "displayName": "Butter Shadow Edge",
+        "canonical": "oklch(85.0% 0.141 96)",
+        "tonalRamp": [
+          "oklch(15% 0.120 96)",
+          "oklch(25% 0.120 96)",
+          "oklch(36% 0.120 96)",
+          "oklch(47% 0.120 96)",
+          "oklch(58% 0.120 96)",
+          "oklch(70% 0.120 96)",
+          "oklch(82% 0.120 96)",
+          "oklch(95% 0.120 96)"
+        ]
+      },
+      "porcelain": {
+        "role": "neutral",
+        "displayName": "Porcelain",
+        "canonical": "oklch(98.5% 0.004 157)",
+        "tonalRamp": [
+          "oklch(15% 0.004 157)",
+          "oklch(25% 0.004 157)",
+          "oklch(36% 0.004 157)",
+          "oklch(47% 0.004 157)",
+          "oklch(58% 0.004 157)",
+          "oklch(70% 0.004 157)",
+          "oklch(82% 0.004 157)",
+          "oklch(95% 0.004 157)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Lipstick Display",
+        "purpose": "The mirror message only; one per page, rotated -3deg, masked."
+      },
+      "script": {
+        "displayName": "Lipstick Script",
+        "purpose": "Sticky-note calls to action, step numerals, short handwritten asides."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles set on the tile wall."
+      },
+      "lead": {
+        "displayName": "Promise",
+        "purpose": "The set promise line beneath a lipstick hook."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Step and product names."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Explanations, max 62ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Nav plaques and footer."
+      }
+    },
+    "shadows": [
+      {
+        "name": "shadow-soft",
+        "value": "0 18px 40px -18px rgb(30 60 50 / 0.45), 0 4px 10px -4px rgb(30 60 50 / 0.25)",
+        "purpose": "Mirrors and porcelain slabs hanging on the tile wall."
+      },
+      {
+        "name": "shadow-note",
+        "value": "0 14px 22px -12px rgb(58 30 22 / 0.45), 0 2px 4px rgb(58 30 22 / 0.12)",
+        "purpose": "Sticky notes at rest."
+      },
+      {
+        "name": "shadow-note-lift",
+        "value": "0 24px 30px -14px rgb(58 30 22 / 0.5), 0 2px 4px rgb(58 30 22 / 0.12)",
+        "purpose": "Sticky note on hover."
+      },
+      {
+        "name": "mirror-bevel",
+        "value": "inset 0 0 0 1px rgb(40 70 62 / 0.45), inset 0 0 0 4px rgb(255 255 255 / 0.85), inset 0 0 0 5px rgb(40 70 62 / 0.18)",
+        "purpose": "Polished bevel on every mirror edge."
+      },
+      {
+        "name": "plaque",
+        "value": "inset 0 0 0 1px rgb(255 255 255 / 0.9), inset 0 -2px 0 rgb(60 110 95 / 0.15), 0 1px 2px rgb(30 60 50 / 0.18)",
+        "purpose": "Glazed nav plaques."
+      },
+      {
+        "name": "shelf",
+        "value": "0 10px 18px -8px rgb(30 60 50 / 0.5)",
+        "purpose": "Under the lit edge of a glass shelf."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "All state transitions."
+      },
+      {
+        "name": "note-settle",
+        "value": "0.35s",
+        "purpose": "Sticky note straighten and lift on hover."
+      },
+      {
+        "name": "plaque-hover",
+        "value": "0.2s",
+        "purpose": "Nav plaque colour change and 1px rise."
+      },
+      {
+        "name": "note-drop-in",
+        "value": "0.9s after 0.5s, from translate(0, -18px) rotate(12deg)",
+        "purpose": "Hero note sticks on load; no-preference motion only."
+      },
+      {
+        "name": "auto-wipe",
+        "value": "1400ms ease-out cubic, 700ms after load",
+        "purpose": "One authored wipe across the fogged mirror; disabled for reduced motion."
+      },
+      {
+        "name": "fog-regrow",
+        "value": "fog redrawn at alpha 0.005 per frame while visible",
+        "purpose": "Steam slowly returns; disabled for reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact",
+        "value": "900px"
+      },
+      {
+        "name": "small",
+        "value": "640px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Nav Plaque",
+      "kind": "nav",
+      "refersTo": "nav-plaque",
+      "description": "Glazed porcelain tile link, one wall tile tall; turns butter and rises 1px on hover.",
+      "html": "<nav class=\"ds-wall\"><a class=\"ds-plaque\" href=\"#\">why sulphate-free</a><a class=\"ds-plaque\" href=\"#\">the shelf</a><a class=\"ds-plaque\" href=\"#\">how to order</a></nav>",
+      "css": ".ds-wall{display:flex;gap:6px;padding:12px;background-color:var(--mint,#8ccbb6);background-image:linear-gradient(var(--grout,#e9f5ef) 2px,transparent 2px),linear-gradient(90deg,var(--grout,#e9f5ef) 2px,transparent 2px);background-size:56px 56px}.ds-plaque{display:inline-flex;align-items:center;height:50px;padding:0 18px;border-radius:4px;font-family:var(--font-set,'Gabarito Variable','Gabarito',system-ui,sans-serif);font-weight:600;font-size:0.95rem;color:var(--cocoa,#3a1e16);text-decoration:none;background:linear-gradient(170deg,#ffffff,var(--porcelain,#f8fbf9) 55%,#e6efeb);box-shadow:inset 0 0 0 1px rgb(255 255 255 / 0.9),inset 0 -2px 0 rgb(60 110 95 / 0.15),0 1px 2px rgb(30 60 50 / 0.18);transition:background-color 0.2s cubic-bezier(0.16,1,0.3,1),transform 0.2s cubic-bezier(0.16,1,0.3,1)}.ds-plaque:hover{background:var(--butter,#f7e27c);transform:translateY(-1px)}.ds-plaque:focus-visible{outline:3px solid var(--cocoa,#3a1e16);outline-offset:3px;border-radius:6px}"
+    },
+    {
+      "name": "Sticky Note CTA",
+      "kind": "button",
+      "refersTo": "sticky-cta",
+      "description": "Primary action: taped butter note with a lipstick call to action, leaning 4deg; straightens and lifts on hover.",
+      "html": "<a class=\"ds-sticky\" href=\"#\"><span class=\"ds-tape\"></span><span class=\"ds-sticky-big\">dm to order</span><span class=\"ds-sticky-small\">on Instagram <svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a>",
+      "css": ".ds-sticky{position:relative;display:flex;flex-direction:column;justify-content:space-between;width:220px;aspect-ratio:1;padding:34px 22px 20px;margin:24px;text-decoration:none;color:var(--cocoa,#3a1e16);background:linear-gradient(175deg,var(--butter,#f7e27c) 0%,var(--butter,#f7e27c) 80%,var(--butter-deep,#e9cd55) 100%);border-radius:2px 2px 3px 14px / 2px 2px 3px 6px;box-shadow:0 14px 22px -12px rgb(58 30 22 / 0.45),0 2px 4px rgb(58 30 22 / 0.12);rotate:4deg;transition:rotate 0.35s cubic-bezier(0.16,1,0.3,1),translate 0.35s cubic-bezier(0.16,1,0.3,1),box-shadow 0.35s cubic-bezier(0.16,1,0.3,1)}.ds-sticky:hover{rotate:1deg;translate:0 -4px;box-shadow:0 24px 30px -14px rgb(58 30 22 / 0.5),0 2px 4px rgb(58 30 22 / 0.12)}.ds-sticky:active{translate:0 0}.ds-sticky:focus-visible{outline:3px solid var(--cocoa,#3a1e16);outline-offset:3px;border-radius:6px}.ds-tape{position:absolute;top:-12px;left:50%;width:72px;height:24px;translate:-50% 0;rotate:-3deg;background:rgb(255 255 255 / 0.55);box-shadow:0 1px 2px rgb(0 0 0 / 0.08)}.ds-sticky-big{font-family:var(--font-lip,'Caveat Brush','Segoe Print',cursive);font-size:3rem;line-height:0.9;color:var(--lipstick,#7d3329)}.ds-sticky-small{display:inline-flex;align-items:center;gap:8px;font-family:var(--font-set,'Gabarito Variable','Gabarito',system-ui,sans-serif);font-weight:700}.ds-sticky-small svg{transition:translate 0.3s cubic-bezier(0.16,1,0.3,1)}.ds-sticky:hover .ds-sticky-small svg{translate:4px 0}"
+    },
+    {
+      "name": "Step Note",
+      "kind": "card",
+      "refersTo": "sticky-step",
+      "description": "Ordering step on a taped butter note with a lipstick numeral.",
+      "html": "<div class=\"ds-step\"><span class=\"ds-tape\"></span><span class=\"ds-step-n\">1</span><h3>Slide into our DMs</h3><p>Message @u_r_glistening on Instagram.</p></div>",
+      "css": ".ds-step{position:relative;width:260px;padding:34px 28px 30px;margin:24px;rotate:-2deg;color:var(--cocoa,#3a1e16);font-family:var(--font-set,'Gabarito Variable','Gabarito',system-ui,sans-serif);background:linear-gradient(175deg,var(--butter,#f7e27c) 0%,var(--butter,#f7e27c) 80%,var(--butter-deep,#e9cd55) 100%);border-radius:2px 2px 3px 14px / 2px 2px 3px 6px;box-shadow:0 14px 22px -12px rgb(58 30 22 / 0.45),0 2px 4px rgb(58 30 22 / 0.12)}.ds-step .ds-tape{position:absolute;top:-12px;left:50%;width:72px;height:24px;translate:-50% 0;rotate:-3deg;background:rgb(255 255 255 / 0.55)}.ds-step-n{display:block;font-family:var(--font-lip,'Caveat Brush','Segoe Print',cursive);font-size:4rem;line-height:0.8;margin-bottom:14px;color:var(--lipstick,#7d3329)}.ds-step h3{margin:0 0 10px;font-size:1.45rem;font-weight:750;letter-spacing:-0.015em;line-height:1.05}.ds-step p{margin:0;line-height:1.55;color:var(--cocoa-soft,#5b382d)}.ds-step a{font-weight:700;color:var(--cocoa,#3a1e16)}.ds-step a:focus-visible{outline:3px solid var(--cocoa,#3a1e16);outline-offset:3px;border-radius:6px}"
+    },
+    {
+      "name": "Porcelain Slab",
+      "kind": "card",
+      "refersTo": "porcelain-slab",
+      "description": "Large white tiles (three wall tiles) holding explanatory content on the wall.",
+      "html": "<div class=\"ds-slab\"><h2>Big foam isn’t the same as clean hair.</h2><p>Sulphate-free cleansers wash more gently, so your hair keeps its moisture.</p></div>",
+      "css": ".ds-slab{max-width:560px;padding:48px;color:var(--cocoa,#3a1e16);font-family:var(--font-set,'Gabarito Variable','Gabarito',system-ui,sans-serif);background-color:var(--porcelain,#f8fbf9);background-image:linear-gradient(#e2ece8 2px,transparent 2px),linear-gradient(90deg,#e2ece8 2px,transparent 2px);background-size:168px 168px;background-position:-1px -1px;border-radius:10px;box-shadow:0 18px 40px -18px rgb(30 60 50 / 0.45),0 4px 10px -4px rgb(30 60 50 / 0.25)}.ds-slab h2{margin:0 0 20px;font-size:2.6rem;font-weight:800;letter-spacing:-0.035em;line-height:0.98}.ds-slab p{margin:0;max-width:62ch;line-height:1.55;color:var(--cocoa-soft,#5b382d)}"
+    },
+    {
+      "name": "Before / After Comparison",
+      "kind": "custom",
+      "description": "Two porcelain columns: lipstick strike-throughs before, mint tint and lipstick dots after.",
+      "html": "<ul class=\"ds-compare\"><li class=\"ds-col ds-was\"><h3>Harsh sulphate shampoo</h3><ul><li><s>squeaky, stripped feel</s></li><li><s>dry ends, more frizz</s></li></ul></li><li class=\"ds-col ds-now\"><h3>Glistening, sulphate-free</h3><ul><li>gentle, everyday clean</li><li>keeps natural oils in</li></ul></li></ul>",
+      "css": ".ds-compare{display:grid;grid-template-columns:1fr 1fr;gap:2px;list-style:none;margin:0;padding:0;border-radius:8px;overflow:hidden;background:#d5e3de;font-family:var(--font-set,'Gabarito Variable','Gabarito',system-ui,sans-serif);color:var(--cocoa,#3a1e16)}.ds-col{padding:28px;background:var(--porcelain,#f8fbf9)}.ds-col h3{margin:0 0 14px;font-size:1.15rem;font-weight:750}.ds-col ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}.ds-col li{font-size:1.4rem;font-weight:650;letter-spacing:-0.01em;line-height:1.2}.ds-was{color:#7c6a63}.ds-was s{text-decoration-color:var(--lipstick,#7d3329);text-decoration-thickness:3px}.ds-now{background:color-mix(in oklab,var(--mint,#8ccbb6) 45%,var(--porcelain,#f8fbf9))}.ds-now li::before{content:'';display:inline-block;width:0.55em;height:0.55em;margin-right:0.45em;border-radius:50%;background:var(--lipstick,#7d3329);vertical-align:0.08em}"
+    },
+    {
+      "name": "Fogged Mirror",
+      "kind": "custom",
+      "description": "Bevelled silver glass with a lipstick hook and a set promise; the live build adds a wipeable steam canvas.",
+      "html": "<div class=\"ds-mirror\"><p class=\"ds-hook\">hey, ur glistening</p><p class=\"ds-promise\">Sulphate-free haircare that doesn’t have to dry your pockets out.</p></div>",
+      "css": ".ds-mirror{position:relative;padding:48px;min-height:280px;border-radius:32px;background:linear-gradient(115deg,transparent 30%,rgb(255 255 255 / 0.45) 38%,transparent 46%),linear-gradient(115deg,transparent 52%,rgb(255 255 255 / 0.25) 55%,transparent 60%),linear-gradient(165deg,var(--glass-hi,#eef4f2) 0%,var(--glass-mid,#cfdcd8) 55%,var(--glass-lo,#aebfbb) 100%);box-shadow:0 18px 40px -18px rgb(30 60 50 / 0.45),0 4px 10px -4px rgb(30 60 50 / 0.25),inset 0 0 0 1px rgb(40 70 62 / 0.45),inset 0 0 0 4px rgb(255 255 255 / 0.85),inset 0 0 0 5px rgb(40 70 62 / 0.18),inset 0 0 70px rgb(60 90 85 / 0.22)}.ds-hook{margin:0;font-family:var(--font-lip,'Caveat Brush','Segoe Print',cursive);font-size:4.5rem;line-height:0.86;color:var(--lipstick,#7d3329);rotate:-3deg;transform-origin:left center}.ds-promise{margin:28px 0 0;max-width:19ch;font-family:var(--font-set,'Gabarito Variable','Gabarito',system-ui,sans-serif);font-size:1.8rem;font-weight:750;line-height:1.04;letter-spacing:-0.02em;color:var(--cocoa,#3a1e16)}"
+    },
+    {
+      "name": "Glass Shelf",
+      "kind": "custom",
+      "description": "Lit glass edge that products and photo frames stand on.",
+      "html": "<div class=\"ds-shelf\"><div class=\"ds-frame\"><span>product photo</span></div></div>",
+      "css": ".ds-shelf{position:relative;display:flex;align-items:flex-end;padding:0 40px;height:200px;margin-bottom:24px}.ds-shelf::after{content:'';position:absolute;left:0;right:0;bottom:-14px;height:14px;border-radius:3px;background:linear-gradient(180deg,rgb(255 255 255 / 0.85),rgb(190 225 214 / 0.55) 40%,rgb(80 150 128 / 0.45));box-shadow:0 10px 18px -8px rgb(30 60 50 / 0.5)}.ds-frame{display:grid;place-items:center;width:150px;aspect-ratio:4/5;border:2px dashed rgb(58 30 22 / 0.35);border-radius:14px;background:rgb(248 251 249 / 0.5)}.ds-frame span{font-family:var(--font-lip,'Caveat Brush','Segoe Print',cursive);font-size:1.6rem;color:var(--cocoa-soft,#5b382d)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Steamed Mirror",
+    "overview": "Every surface is a fixture in one small bathroom. The ground is a wall of glazed mint tiles with white grout; the main surface is silvered glass that has fogged over, and the brand's voice is written on it in waxy lipstick. Actions are butter-yellow sticky notes taped to the glass or the wall. Products stand on glass shelves. Nothing on the page is a generic web panel: if a new element cannot be named as a bathroom object, it does not belong yet.\n\nThe world is warm and close, not clinical. Two voices share the page: a hand (lipstick script, tilted, streaky) and a set voice (a round, heavy grotesk in cocoa). The hand speaks in short lowercase lines; the set voice carries explanations and instructions. Depth is physical and soft: things hang, lean, and cast diffuse shadows onto tile. The palette holds to mint, cocoa, and glass silver, with butter reserved for anything you can press.\n\nThe one live behaviour is steam: the visitor wipes the glass with a pointer or finger, the fog slowly returns, and the page wipes one streak itself on load. Motion otherwise stays small and settles quickly.",
+    "keyCharacteristics": [
+      "Glazed mint tile wall on a 56px grid (44px under 640px) as the ground for every section.",
+      "Fogged, bevelled mirror glass as the primary surface; a round mirror closes the page.",
+      "Lipstick script (Caveat Brush, masked for streaky coverage) for the brand voice only.",
+      "Gabarito in cocoa for all set text, heavy and tight at headline sizes.",
+      "Butter sticky notes, taped and slightly rotated, as the only action surfaces.",
+      "Glass shelves as rails for products.",
+      "Soft, warm-tinted drop shadows; no hard edges of shadow anywhere."
+    ],
+    "rules": [
+      {
+        "name": "The Three-Value Rule",
+        "body": "Mint, cocoa, and glass silver make up the page. Lipstick and butter are accents; neither may become a section ground.",
+        "section": "colors"
+      },
+      {
+        "name": "The No-Cream Rule",
+        "body": "Whites lean cool (porcelain, grout, glass). No cream, ivory, or beige surfaces; the warmth comes from cocoa and butter alone.",
+        "section": "colors"
+      },
+      {
+        "name": "The Butter-Means-Press Rule",
+        "body": "Butter appears on action surfaces, hover states, and selection. Do not use it for decoration or information.",
+        "section": "colors"
+      },
+      {
+        "name": "The Lipstick-Is-Voice Rule",
+        "body": "Caveat Brush is for things the brand would write by hand: the mirror message, note calls to action, numerals, short asides. Never for explanations, instructions longer than a line, or labels.",
+        "section": "typography"
+      },
+      {
+        "name": "The Waxy Coverage Rule",
+        "body": "Lipstick text always carries the fractal-noise mask (260px tile) and gets padded room (0.12em sides, 0.32em below) so swashes and descenders are not clipped.",
+        "section": "typography"
+      },
+      {
+        "name": "The Hook-Title-Promise Rule",
+        "body": "On a mirror, lines run in a fixed three-tier order: lipstick hook, set promise, small location/meta line. Do not add a fourth tier above the hook.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tinted Shadow Rule",
+        "body": "Shadows are tinted by what they fall on: deep mint-green on the wall, cocoa under paper. Never neutral black, never hard-edged or offset without blur.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do set every new section on the mint tile wall and name the bathroom object it is (mirror, slab, note, shelf, plaque).",
+      "Do route every action through a butter sticky note or a butter hover state.",
+      "Do keep lipstick lines short and lowercase, masked, padded, and rotated within -4deg to 4deg.",
+      "Do keep set text in Gabarito on cocoa or soft cocoa, level and tightly tracked at headline sizes.",
+      "Do tint shadows by surface (mint-green on wall, cocoa under paper), with blur and negative spread.",
+      "Do respect reduced motion: no auto-wipe, no fog regrowth, no note drop-in, no smooth scroll."
+    ],
+    "donts": [
+      "Don't use cream, ivory, or beige surfaces; whites stay cool (porcelain, grout, glass).",
+      "Don't set explanations, labels, or multi-line instructions in Caveat Brush.",
+      "Don't render lipstick as a flat, unmasked fill.",
+      "Don't use butter for decoration or as a section ground.",
+      "Don't use hard-edged or untinted black shadows.",
+      "Don't add a small label line above the lipstick hook; the mirror's hierarchy is hook, promise, meta."
+    ]
+  }
+}
